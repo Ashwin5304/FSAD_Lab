@@ -1,0 +1,18 @@
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    color: red;
+    margin: 5px;
+}
