@@ -1,0 +1,46 @@
+db.employees.insertMany([
+  {
+    employee_id: 101,
+    name: "Ramesh Sharma",
+    department: "Engineering",
+    salary: 95000,
+    hire_date: new Date("2023-01-15"),
+    performance_score: 4.5,
+    status: "Active"
+  },
+  {
+    employee_id: 102,
+    name: "GuruKiran",
+    department: "HR",
+    salary: 68000,
+    hire_date: new Date("2024-03-22"),
+    performance_score: 4.1,
+    status: "Active"
+  },
+  {
+    employee_id: 103,
+    name: "Manjunath ",
+    department: "Engineering",
+    salary: 120000,
+    hire_date: new Date("2022-06-01"),
+    performance_score: 4.8,
+    status: "Active"
+  },
+  {
+    employee_id: 104,
+    name: "Rahul Chahar",
+    department: "Sales",
+    salary: 85000,
+    hire_date: new Date("2023-11-10"),
+    performance_score: 4.2,
+    status: "Active"
+  },
+  {
+    employee_id: 105,
+    name: "Vikram Rathod",
+    department: "Sales",
+    salary: 85000,
+    hire_date: new Date("2024-08-01"),
+    status: "On Leave"
+  }
+]);
