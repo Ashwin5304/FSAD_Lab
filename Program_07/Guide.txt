@@ -1,0 +1,8 @@
+mongosh 
+
+use P07 
+db 
+
+db.employees.insertMany ([ 
+
+]);
