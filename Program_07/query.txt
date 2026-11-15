@@ -26,6 +26,15 @@ db.employees.find({
     ]
 })
 
+db.employees.find({
+    status: "Active",
+    department: {
+        $in: ["Engineering", "Sales"]
+    },
+    hire_date: {
+        $lt: new Date("2024-01-01")
+    }
+})
 
 
 db.employees.find()
