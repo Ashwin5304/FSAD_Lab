@@ -1,0 +1,34 @@
+db.employees.find({
+    salary: { $gt: 90000, $lte: 120000 }
+})
+
+
+db.employees.find({
+    department: { $in: ["HR", "Sales"] }
+})
+
+
+db.employees.find({
+    status: { $ne: "On Leave" }
+})
+
+
+db.employees.find({
+    department: "Engineering",
+    performance_score: { $gte: 4.5 }
+})
+
+
+db.employees.find({
+    $or: [
+        { department: "HR" },
+        { salary: { $gt: 100000 } }
+    ]
+})
+
+
+
+db.employees.find()
+
+
+db.employees.countDocuments()
