@@ -1,0 +1,5 @@
+db.catalog.createIndex({
+    name: "text",
+    description: "text",
+    tags: "text"
+});
