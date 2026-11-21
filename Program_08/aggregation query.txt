@@ -1,0 +1,4 @@
+db.catalog.aggregate([
+    { $match: { $text: { $search: "backpack" } } },
+    { $project: { _id: 0, name: 1, price: 1, score: { $meta: "textScore" } } }
+]);
