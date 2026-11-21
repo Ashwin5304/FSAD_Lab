@@ -1,0 +1,9 @@
+mongosh 
+
+use catalogDB 
+
+paste the data.txt file 
+
+paste the textindex.txt file 
+
+paste the aggregatiion_query.txt (U CAN CHANGE THE TAGS in $serach section) 
